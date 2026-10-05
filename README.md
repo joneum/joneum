@@ -22,8 +22,15 @@ stay here until upstream wants them back.
 
 ## FreeBSD ports
 
-Ports I maintain include `www/nginx`, `www/nginx-devel`, `www/freenginx`,
-`databases/mysql*` and `net/freeipa-server`, the FreeIPA server on FreeBSD.
+Ports I maintain include:
+
+- `www/immich`: the self-hosted photo and video library, with its machine
+  learning side
+- `net/freeipa-server`: the FreeIPA server on FreeBSD, with
+  [documentation of what works and what differs from Linux](https://github.com/joneum/FreeBSD-freeipa-server)
+- `www/nginx`, `www/nginx-devel`, `www/freenginx`
+- `databases/mysql*`
+
 Fixes go upstream or into the ports tree, never only into a private fork.
 
 ## Distfile hosting
