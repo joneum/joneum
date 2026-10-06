@@ -46,3 +46,7 @@ Those live here so the ports stay reproducible:
 
 Bug reports for a port: the FreeBSD [Bugzilla](https://bugs.freebsd.org/).
 Everything else: issues on the repository in question.
+
+## License
+
+BSD 2-Clause, see [LICENSE](LICENSE).
