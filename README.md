@@ -8,17 +8,18 @@ Blog and write-ups: **[blog.bsdproject.de](https://blog.bsdproject.de)**
 
 ## nginx modules
 
-Modules I maintain for nginx on FreeBSD and Linux:
+My nginx modules live in the
+**[sysadmin-labs](https://github.com/sysadmin-labs)** organization:
 
 | Module | What it does |
 |---|---|
-| [form-input-nginx-module](https://github.com/joneum/form-input-nginx-module) | Parses `application/x-www-form-urlencoded` request bodies into nginx variables |
-| [nginx-let-module](https://github.com/joneum/nginx-let-module) | Evaluates an arithmetic or string expression into a variable |
-| [nginx-zstd-module](https://github.com/joneum/nginx-zstd-module) | Zstandard output filter plus a server for precompressed `.zst` files |
-| [nginx-slowfs-cache-module](https://github.com/joneum/nginx-slowfs-cache-module) | Caches files from a slow filesystem onto a fast one |
+| [nginx-form-input-module](https://github.com/sysadmin-labs/nginx-form-input-module) | Parses `application/x-www-form-urlencoded` request bodies into nginx variables |
+| [nginx-let-module](https://github.com/sysadmin-labs/nginx-let-module) | Evaluates an arithmetic or string expression into a variable |
+| [nginx-zstd-module](https://github.com/sysadmin-labs/nginx-zstd-module) | Zstandard output filter plus a server for precompressed `.zst` files |
+| [nginx-slowfs-cache-module](https://github.com/sysadmin-labs/nginx-slowfs-cache-module) | Caches files from a slow filesystem onto a fast one |
 
 The last three are forks of upstream projects that had gone quiet. The fixes
-stay here until upstream wants them back.
+stay there until upstream wants them back.
 
 ## FreeBSD ports
 
